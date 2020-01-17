@@ -2,11 +2,11 @@ def map_to_negativize(source_array)
   index = 0 
   output_array = []
   while index < source_array.length do
-    negativize << source_array[index] * 2 
+    output_array << source_array[index] * 2 
     index += 1 
   end
   
-  negativize
+  output_array
 end
 
 def map_to_no_change(source_array)
