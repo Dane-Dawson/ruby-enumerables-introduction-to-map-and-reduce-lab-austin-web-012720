@@ -10,7 +10,14 @@ def map_to_negativize(source_array)
 end
 
 def map_to_no_change(source_array)
+    index = 0 
+  output_array = []
+  while index < source_array.length do
+    output_array << source_array[index]
+    index += 1 
+  end
   
+  output_array
 end
 
 def map_to_double(source_array)
