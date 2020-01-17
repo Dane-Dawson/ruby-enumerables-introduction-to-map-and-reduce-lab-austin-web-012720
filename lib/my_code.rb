@@ -1,5 +1,14 @@
-
 def map_to_negativize(source_array)
+  index = 0 
+  negativize = []
+  while index < source_array.length do
+    negativize << source_array[index] * 2 
+    index += 1 
+  end
+  
+  negativize
+end
+
 def map_to_no_change(source_array)
 def map_to_double(source_array)
 def map_to_square(source_array)
