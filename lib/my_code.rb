@@ -1,6 +1,6 @@
 def map_to_negativize(source_array)
   index = 0 
-  negativize = []
+  output_array = []
   while index < source_array.length do
     negativize << source_array[index] * 2 
     index += 1 
